@@ -1,0 +1,9 @@
+{
+    "server":"undefined",
+    "server_port":undefined,
+    "local_address":"0.0.0.0",
+    "local_port":1080,
+    "password":"undefined",
+    "timeout":600,
+    "method":"undefined"
+}

@@ -1,0 +1,36 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 8,
+        "ecmaFeatures": {
+            "experimentalObjectRestSpread": true,
+            "experimentalDecorators": true
+        },
+        "sourceType": "module"
+    },
+    "parser": "babel-eslint",
+    "extends": ["standard"],
+    "rules": {
+        "camelcase": 0,
+        "no-console": 0,
+        "no-empty": 2,
+        "indent": ["error", 4],
+        "semi": [2, "always"],
+        "eol-last": 0,
+        "quotes": [1, "single"],
+        "space-before-function-paren": [0, "always"],
+        "no-extra-parens": 1,
+        "no-use-before-define": [1, "nofunc"],
+        "no-dupe-keys": 2,
+        "no-dupe-args": 2,
+        "no-unreachable": 2,
+        "no-sparse-arrays": 2,
+        "no-shadow-restricted-names": 2,
+        "generator-star-spacing": 0,
+        "padded-blocks": 0,
+        "operator-linebreak": [0, "after"],
+        "eqeqeq": 2
+    },
+    "globals": {
+        "transaction": true
+    }
+}
